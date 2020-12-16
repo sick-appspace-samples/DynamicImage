@@ -1,0 +1,76 @@
+<layout-row id="RowLayout1">
+	<layout-column id="ColumnLayout0">
+		
+		<h5>Property - data</h5>
+		<layout-row id="RowLayout2">
+			<layout-column id="ColumnLayout1">
+				<h6>base64 gif crown</h6>
+				<curie-image id="DynamicImage1">
+					<crown-binding property="data" name="ImageSample/getGIFImageBase64" path="result/data/return1"
+						auto-update="0" update-on-resume></crown-binding>
+				</curie-image>
+			</layout-column>
+			<layout-column id="ColumnLayout2">
+				<h6>base64 png crown</h6>
+				<curie-image id="DynamicImage2">
+					<crown-binding property="data" name="ImageSample/getPNGImageBase64" path="result/data/return1"
+						auto-update="0" update-on-resume></crown-binding>
+				</curie-image>
+			</layout-column>
+		</layout-row>
+
+		<h5>Property - src</h5>
+		<layout-row id="RowLayout3">
+			<layout-column id="ColumnLayout4">
+				<h6>asset folder png</h6>
+				<curie-image id="DynamicImage4" src="assets/test.png">
+				</curie-image>
+			</layout-column>
+			<layout-column id="ColumnLayout3">
+				<h6>external png</h6>
+				<curie-image id="DynamicImage3"
+					src="https://cdn.sick.com/static_2020102116/_ui/desktop/common/images/base/pics/logo.png">
+				</curie-image>
+			</layout-column>
+		</layout-row>
+
+		<h5>Style - width & height</h5>
+		<layout-row id="RowLayout4">
+			<layout-column id="ColumnLayout6">
+				<h6>50x50</h6>
+				<curie-image id="DynamicImage7" style="width:50px;height:50px">
+					<crown-binding property="data" name="ImageSample/getPNGImageBase64" path="result/data/return1"
+						auto-update="0" update-on-resume></crown-binding>
+				</curie-image>
+			</layout-column>
+			<layout-column id="ColumnLayout7">
+				<h6>100x100</h6>
+				<curie-image id="DynamicImage8" style="width:100px;height:100px">
+					<crown-binding property="data" name="ImageSample/getPNGImageBase64" path="result/data/return1"
+						auto-update="0" update-on-resume></crown-binding>
+				</curie-image>
+			</layout-column>
+			<layout-column id="ColumnLayout8">
+				<h6>200x200</h6>
+				<curie-image id="DynamicImage9" style="width:200px;height:200px">
+					<crown-binding property="data" name="ImageSample/getPNGImageBase64" path="result/data/return1"
+						auto-update="0" update-on-resume></crown-binding>
+				</curie-image>
+			</layout-column>
+		</layout-row>
+		
+		<h5>Style - flex</h5>
+		<layout-row id="RowLayout5" style="width:100%">
+				<curie-image id="DynamicImage10" style="flex-grow:1">
+					<crown-binding property="data" name="ImageSample/getPNGImageBase64" path="result/data/return1"
+						auto-update="0" update-on-resume></crown-binding>
+				</curie-image>
+				<curie-image id="DynamicImage11" style="flex-grow:1">
+					<crown-binding property="data" name="ImageSample/getPNGImageBase64" path="result/data/return1"
+						auto-update="0" update-on-resume></crown-binding>
+				</curie-image>
+			</layout-column>
+		</layout-row>
+</layout-row>
+</layout-column>
+</layout-row>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest>
+    <application name="DynamicImage">
+        <crown name="DynamicImage">
+            <desc>user script</desc>
+            <serves>
+                <function name="getGIFImageBase64">
+                    <desc/>
+                    <return desc="" multiplicity="1" name="return1" type="string"/>
+                </function>
+                <function name="getPNGImageBase64">
+                    <desc/>
+                    <return desc="" multiplicity="1" name="return1" type="string"/>
+                </function>
+            </serves>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">1.0</meta>
+        <meta key="priority">low</meta>
+        <meta key="copy-protected">false</meta>
+        <meta key="read-protected">false</meta>
+        <entry default="main.lua" path="scripts"/>
+    </application>
+</manifest>
